@@ -1,16 +1,60 @@
-## Hi there 👋
+from pathlib import Path
 
-<!--
-**kishorjakkula/kishorjakkula** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+content = """# Kishor Kumar Jakkula
 
-Here are some ideas to get you started:
+Enterprise System Architect | Insurance Technology Leader | Guidewire & Majesco Expert | Cloud Integration Specialist
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About Me
+
+I am an Enterprise System Architect and Technology Leader with 17+ years of experience designing and delivering large-scale enterprise platforms across Insurance, Banking, Cybersecurity, and Cloud Integration domains.
+
+My expertise includes:
+
+- Guidewire PolicyCenter
+- Majesco Policy & Billing
+- Enterprise Integration Architecture
+- Workflow Orchestration
+- API & Rating Integrations
+- Cloud-Native Architecture
+- Microservices
+- Java / Spring Ecosystem
+- Enterprise Security Frameworks
+
+## Research, Publications & Industry Contributions
+
+- Peer-reviewed author in insurance technology and enterprise architecture.
+- International conference speaker and keynote presenter.
+- Reviewer and judge for international technology conferences and awards programs.
+- Active contributor to professional and technical communities.
+
+## Areas of Interest
+
+- Insurance Technology Platforms
+- Workflow Automation
+- Business Rules Engines
+- Enterprise Integration Patterns
+- Cloud-Native Systems
+- Open Source Contributions
+- AI in Insurance
+- Process Orchestration
+
+## Current Open Source Focus
+
+- Camunda
+- Spring Cloud Gateway
+- LiteFlow
+- Rules Engine Platforms
+- Enterprise Workflow Frameworks
+
+## Connect
+
+- LinkedIn: https://www.linkedin.com/in/kishorjakkula/
+- GitHub: https://github.com/kishorjakkula
+
+---
+
+Building scalable enterprise systems that simplify complex business operations through configuration-driven architecture and cloud integration.
+"""
+
+Path(path).write_text(content)
+print(path)
