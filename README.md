@@ -1,6 +1,6 @@
 from pathlib import Path
 
-content = """# Kishor Kumar Jakkula
+# Kishor Kumar Jakkula
 
 Enterprise System Architect | Insurance Technology Leader | Guidewire & Majesco Expert | Cloud Integration Specialist
 
