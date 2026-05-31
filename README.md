@@ -55,5 +55,4 @@ My expertise includes:
 Building scalable enterprise systems that simplify complex business operations through configuration-driven architecture and cloud integration.
 """
 
-Path(path).write_text(content)
-print(path)
+Pa
